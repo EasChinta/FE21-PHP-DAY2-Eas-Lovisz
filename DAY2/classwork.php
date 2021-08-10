@@ -50,9 +50,8 @@ if (isset($_POST['submit'])) {
   echo "<h1 style='margin-top:5vh'>Please insert your name and last name</h1>";
 }
 ?>
-  <?php
 
-
+<?php
   echo '
 <div class="container contact_form">
   <form action="" method="post">
@@ -63,9 +62,8 @@ if (isset($_POST['submit'])) {
     <input type="submit" name="submit" value="Submit">
       </form>
 </div>
-
 '
-  ?>
+?>
 
 </section>
 
@@ -81,7 +79,7 @@ if (isset($_POST['submit'])) {
   $sum = $num1 / $num2;
   echo "<h1>This is the result:  ".$sum. "</h1>";
 }
-divideMe(35, 5);
+divideMe(100, 4);
 
 
 
