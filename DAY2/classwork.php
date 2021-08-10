@@ -21,6 +21,9 @@ echo '<div class="container">
 <li class="nav-item active animate__animated animate__backInDown animate__delay-2s	">
   <a class="nav-link" href="advanced.php">Advanced</a>
 </li>
+<li class="nav-item active animate__animated animate__backInDown animate__delay-2s	">
+  <a class="nav-link" href="exercise6.php">Exercise 6</a>
+</li>
 </ul>
 </div>';
 ?>

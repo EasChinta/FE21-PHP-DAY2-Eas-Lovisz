@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="styles1.css" rel="stylesheet">
 
     <title>Advanced</title>
 </head>
@@ -18,8 +19,25 @@ echo '<div class="container">
 <li class="nav-item active animate__animated animate__backInDown animate__delay-2s	">
   <a class="nav-link" href="advanced.php">Advanced</a>
 </li>
+<li class="nav-item active animate__animated animate__backInDown animate__delay-2s	">
+  <a class="nav-link" href="exercise6.php">Exercise 6</a>
+</li>
 </ul>
 </div>';
+?>
+
+
+
+
+
+<?php
+function convert($F){
+  $C = ($F - 32) * 5556;
+  echo "<h1>".$C."</h1>";
+}
+
+convert(45);
+
 ?>
 
 
